@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-tagline: My friends.
+tagline: My friends🤺.
 permalink: /links.html
 ---
 
