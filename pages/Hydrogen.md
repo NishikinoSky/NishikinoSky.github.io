@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Billboard
-tagline: Biu~
+title: Blog
+tagline: 咕咕咕
 ---
 
 <div style="text-align:center">:shit:nothing...</div>
