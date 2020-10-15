@@ -1,27 +1,23 @@
 ---
 layout: page
-title: about
-tagline: 关于我 ~
+title: About
+tagline: Makimakima~
 sitetime: display
 permalink: /about.html
 ---
 
-## #作者
+## Sky
 
-你可以通过以下方式联系作者
+ZJU IS菜鸡，躺平求不挂555
 
-QQ: 1316341442
+会一点画画，会一点黑暗料理，不会大物
 
-Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a>
+高纯度缪缪人 | 邦邦人 | 歌歌人 | maki厨 | 晴香姨单推人
 
-Github: [link9596](https://github.com/link9596)
+## 🤺link🤺
 
-## #捐助我
+QQ：2880880
 
-本主题使用免费，也是作者长期工作的结晶，如果你喜欢主题\~想支持作者，欢迎给作者捐赠~
+Email：2880880@qq.com
 
-<center>扫下方付款二维码即可向作者捐赠!</center>
-
-![wechat](https://atlinker.cn/pay/wechat.png)
-
-![pay](https://atlinker.cn/pay/apay.png)
+Github: [NishikinoSky](https://github.com/NishikinoSky)
