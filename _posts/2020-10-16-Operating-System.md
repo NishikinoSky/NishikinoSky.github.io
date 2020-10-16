@@ -41,6 +41,18 @@ A process is a program in execution
 
 Memory management determines what is in memory when.
 
+### OS Services
+Helpful to users: program execution | I/O operations | file systems | communication | error detection
+
+Better efficiency/operation: resource allocation | accounting | protection and security
+
+### User Operating System Interface
+>CLI
+>>Shell: knows how to run command
+>
+>GUI
+>
+>Batch
 
 # 2020.9.16~9.18
 
