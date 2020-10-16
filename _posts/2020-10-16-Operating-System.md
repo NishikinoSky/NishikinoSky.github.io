@@ -8,17 +8,17 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.9.23~9.25
+# #2020.9.23~9.25
 
-## OS Structures
+## #OS Structures
 
-### OS Events
+### #OS Events
 Two kinds of events: Interrupts and Traps
 > Interrupts are caused by external events; Hardware generated.
 >
 > Traps are caused by executing instructions; Software generated.
 
-### System Calls
+### #System Calls
 A system call is a special kind of trap for a user program to do something privileged.
 
 Mostly accessed by programs via a high-level Application Programming Interface (API).
@@ -31,11 +31,11 @@ Syscall will transfer the control flow from user to kernel.
 
 
 
-### Timers
+### #Timers
 CPU need to know how much time a program has used CPU resource. The timer interrupts the
 computer regularly.(A special kind of interrupt)
 
-### Main OS Services
+### #Main OS Services
 > Process Management
 >
 > Memory Management
@@ -53,12 +53,12 @@ A process is a program in execution
 
 Memory management determines what is in memory when.
 
-### OS Services
+### #OS Services
 Helpful to users: program execution / I/O operations / file systems / communication / error detection
 
 Better efficiency/operation: resource allocation / accounting / protection and security
 
-### User Operating System Interface
+### #User Operating System Interface
 >CLI
 >>Shell: knows how to run command
 >
@@ -67,17 +67,17 @@ Better efficiency/operation: resource allocation / accounting / protection and s
 >Batch
 
 
-# 2020.9.16~9.18
+# #2020.9.16~9.18
 
-## Intro
+## #Intro
 
-### Von-Neumann Model
+### #Von-Neumann Model
 CPU-->Memory & I/O
 
-### Memory
+### #Memory
 Data stored in memory and each byte is labeled by a unique address.
 
-### CPU
+### #CPU
 Program Counter  |  Current Instruction  |  Registers  |  ALU  |  Control Unit
 
 Fetch-Decode-Execute cycle
@@ -86,7 +86,7 @@ Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer t
 
 CPU always has priority over DMA because CPU is faster and always does meaningful things.
 
-### Memory Hierarchy
+### #Memory Hierarchy
 Speed: CPU > Cache > Memory > I/O device
 
 Why caching works？
@@ -94,9 +94,9 @@ Why caching works？
 >
 > Spatial Locality: a program tends to reference address next to addresses it has recently referenced.
 
-### Multi-core Chips
+### #Multi-core Chips
 
-### OS
+### #OS
 Applications->OS->Hardware
 
 OS is a resource abstractor and allocator. It decides who (which running program) gets what resource (share) and when.
@@ -110,19 +110,19 @@ How to start an OS?
 >
 > Then nothing happens until an event occurs.
 
-### Multi-Programming
+### #Multi-Programming
 Context-switch
 
 Time-Sharing: Multi-programming with rapid context-switching.
 
 In modern OSes, jobs are called processes, which mean running programs.
 
-### User&Kernel Mode
+### #User&Kernel Mode
 
-### Control Flow 
+### #Control Flow 
 Control flow(or flow of control) is the order in which individual statements, instructions or function calls of an program are executed.
 
-### You can play with them :)
+### #You can play with them :)
 [LinuxKernel](https://www.kernel.org/)
 
 [GithubLinux](https://github.com/torvalds/linux)
