@@ -17,16 +17,18 @@ CPU-->Memory & I/O
 Data stored in memory and each byte is labeled by a unique address.
 
 ### CPU
-> Program counter
+> Program Counter
 >
-> current instruction
+> Current Instruction
 >
-> registers
+> Registers
 >
 > ALU
 >
 > Control Unit
 
-Direct Memory Access(DMA): 
+Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer to free CPU from meaningless data copying and loading, leading better performance. (More on interrupts later)(DMA is not completely free because it also occupies memory bus)
+
+CPU always has priority over DMA because CPU is faster and doing meaningful things.
 
 ### 
