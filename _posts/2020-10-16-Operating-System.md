@@ -8,7 +8,7 @@ stickie: false
 
 👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.9.16
+# 2020.9.16~9.18
 
 ### Von-Neumann Model
 CPU-->Memory & I/O
@@ -31,5 +31,6 @@ Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer t
 
 CPU always has priority over DMA because CPU is faster and doing meaningful things.
 
-### RAM
+### Memory Hierarchy
 > CPU > Cache > Memory > I/O device
+
