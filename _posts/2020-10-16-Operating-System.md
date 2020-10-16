@@ -8,6 +8,13 @@ stickie: false
 
 👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
+# 2020.9.23~9.25
+
+### OS Events
+Two kinds of events: Interrupts and Traps
+> Interrupts are caused by external events
+> Traps are caused by executing instructions
+
 # 2020.9.16~9.18
 
 ### Von-Neumann Model
@@ -55,6 +62,8 @@ Context-switch
 Time-Sharing: Multi-programming with rapid context-switching.
 
 In modern OSes, jobs are called processes, which mean running programs.
+
+
 
 ### You can play with them :)
 [LinuxKernel](https://www.kernel.org/)
