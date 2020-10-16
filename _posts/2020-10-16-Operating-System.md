@@ -13,6 +13,7 @@ stickie: false
 ### OS Events
 Two kinds of events: Interrupts and Traps
 > Interrupts are caused by external events
+>
 > Traps are caused by executing instructions
 
 # 2020.9.16~9.18
