@@ -8,6 +8,13 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
+# 2020.9.27 & 9.30
+
+## OS Structures
+
+
+
+
 # 2020.9.23 & 9.25
 
 ## OS Structures
@@ -59,6 +66,39 @@ Helpful to users: program execution / I/O operations / file systems / communicat
 Better efficiency/operation: resource allocation / accounting / protection and security
 
 ### #System Services
+
+### #Linkers and Loaders
+Relocatable object file: Source code compiled into object files designed to be loaded into any physical memory location.
+
+Linker combines these object files into single binary executable file and also brings in libraries.
+
+Loader bring executable file into memory to be executed.
+
+Modern general purpose systems don’t link libraries into executables, but dynamically linked libraries are loaded as needed, which is called DLLs in Windows.
+
+> Source program + compiler = object file
+>
+> Object file + other object files + linker = executable file
+>
+> executable file + loader = program in memory
+>
+> main.c (gcc -c)-> main.o (gcc -o)-> main
+
+### #ELF
+ELF: Executable and Linkable Format
+
+ELF includes ELF header, Program header table, .text, .rodata, .data, .bass, Section header table.
+
+> Program header table and section header table are for Linker and Loader
+>
+> .text: code
+>
+> .rodata: initialized read-only data (where static const goes)
+>
+> .data: initialized data (where static variable goes)
+>
+> .bss: uninitialized data
+
 
 
 ### #User Operating System Interface
