@@ -44,7 +44,7 @@ Memory management determines what is in memory when.
 ### OS Services
 Helpful to users: program execution | I/O operations | file systems | communication | error detection
 
-Better efficiency/operation: resource allocation | accounting | protection and security
+Better efficiency/operation: resource allocation / accounting / protection and security
 
 ### User Operating System Interface
 >CLI
