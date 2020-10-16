@@ -16,6 +16,9 @@ Two kinds of events: Interrupts and Traps
 >
 > Traps are caused by executing instructions; Software generated.
 
+### System Calls
+A system call is a special kind of trap for a user program to do something privileged.
+
 
 
 # 2020.9.16~9.18
