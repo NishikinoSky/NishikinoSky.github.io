@@ -14,6 +14,5 @@ stickie: false
 CPU-->Memory & I/O
 
  ## Memory
-
 Data sotred in memory and each byte is labeled by a unique address.
 
