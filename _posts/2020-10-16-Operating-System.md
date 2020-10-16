@@ -4,17 +4,19 @@ title: Operating System
 tags: OperatingSystem
 stickie: false
 ---
-操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈遗迹可循；加上泉泉人反串作梗其中，期末岌岌可危矣。
+操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈遗迹可循；况且泉泉人反串作梗其中，期末岌岌可危矣。
 
-👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
+故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
 # 2020.9.23~9.25
 
 ### OS Events
 Two kinds of events: Interrupts and Traps
-> Interrupts are caused by external events
+> Interrupts are caused by external events; Hardware generated.
 >
-> Traps are caused by executing instructions
+> Traps are caused by executing instructions; Software generated.
+
+
 
 # 2020.9.16~9.18
 
@@ -64,7 +66,10 @@ Time-Sharing: Multi-programming with rapid context-switching.
 
 In modern OSes, jobs are called processes, which mean running programs.
 
+### User&Kernel Mode
 
+### Control Flow 
+Control flow(or flow of control) is the order in which individual statements, instructions or function calls of an program are executed.
 
 ### You can play with them :)
 [LinuxKernel](https://www.kernel.org/)
