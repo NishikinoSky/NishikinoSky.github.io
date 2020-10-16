@@ -27,7 +27,7 @@ Data stored in memory and each byte is labeled by a unique address.
 >
 > Control Unit
 
-Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer to free CPU from meaningless data copying and loading, leading better performance. (More on interrupts later)(DMA is not completely free because it also occupies memory bus)
+Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer to free CPU from meaningless data copying and loading, leading to better performance. (More on interrupts later)(DMA is not completely free because it also occupies memory bus)
 
 CPU always has priority over DMA because CPU is faster and doing meaningful things.
 
