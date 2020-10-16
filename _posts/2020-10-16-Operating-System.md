@@ -8,7 +8,7 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.9.23~9.25
+# 2020.9.23 & 9.25
 
 ## OS Structures
 
@@ -25,11 +25,11 @@ Mostly accessed by programs via a high-level Application Programming Interface (
 
 Time spent in syscalls: realtime & user time(user mode) & system time(kernel mode)
 
-Typically, a number associated with each system call and System-call interface maintains a table indexed according to these numbers. Kernel just looks up the table for the number, finds the entry and excutes it.
+Typically, a number is associated with each system call and System-call interface maintains an index table according to these numbers. Kernel just looks up the table for the number, finds the entrance and excutes it.
 
 Syscall will transfer the control flow from user to kernel.
 
-
+System Call Parameter Passing: Parameters stored in a block, or table, in memory, and address of block passed as a parameter in a register.
 
 ### #Timers
 CPU need to know how much time a program has used CPU resource. The timer interrupts the
@@ -58,6 +58,9 @@ Helpful to users: program execution / I/O operations / file systems / communicat
 
 Better efficiency/operation: resource allocation / accounting / protection and security
 
+### #System Services
+
+
 ### #User Operating System Interface
 >CLI
 >>Shell: knows how to run command
@@ -67,7 +70,7 @@ Better efficiency/operation: resource allocation / accounting / protection and s
 >Batch
 
 
-# 2020.9.16~9.18
+# 2020.9.16 & 9.18
 
 ## Intro
 
