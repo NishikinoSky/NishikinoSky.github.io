@@ -8,12 +8,12 @@ stickie: false
 
 👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-## 2020.9.16
+# 2020.9.16
 
- # Von-Neumann Model
+ ## Von-Neumann Model
 > CPU-->Memory & I/O
 
- # Memory
+ ## Memory
 
 Data sotred in memory and each byte is labeled by a unique address.
 
