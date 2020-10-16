@@ -52,6 +52,10 @@ How to start an OS?
 ### Multi-Programming
 Context-switch
 
+Time-Sharing: Multi-programming with rapid context-switching.
+
+In modern OSes, jobs are called processes, which mean running programs.
+
 ### You can play with them :)
 [LinuxKernel](https://www.kernel.org/)
 
