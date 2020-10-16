@@ -47,7 +47,7 @@ How to stat an OS?
 >
 > Then locates and loads the OS kernel into memory.
 >
-> The kernel starts the first process (called “init” on Linux, “launchd” on Mac OS X).
+> The kernel starts the first process (called “init” on Linux).
 >
 > Then nothing happens until an event occurs.
 
