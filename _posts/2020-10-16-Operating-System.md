@@ -24,7 +24,7 @@ CPU need to know how much time a program has used CPU resource. The timer interr
 computer regularly.(A special kind of interrupt)
 
 ### Main OS Services
->> Process Management
+> Process Management
 >
 > Memory Management
 >
@@ -34,7 +34,7 @@ computer regularly.(A special kind of interrupt)
 >
 > Protection and Security
 
-A process is a program in execution.
+A process is a program in execution
 > Program: passive entity
 >
 > Process: active entity
