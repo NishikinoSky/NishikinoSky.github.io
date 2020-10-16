@@ -19,6 +19,16 @@ Two kinds of events: Interrupts and Traps
 ### System Calls
 A system call is a special kind of trap for a user program to do something privileged.
 
+Mostly accessed by programs via a high-level Application Programming Interface (API).
+
+Time spent in syscalls: realtime & user time(user mode) & system time(kernel mode)
+
+Typically, a number associated with each system call and System-call interface maintains a table indexed according to these numbers. Kernel just look up the table for the number, find the entry and excute it.
+
+Syscall will transfer the control flow from user to kernel.
+
+
+
 ### Timers
 CPU need to know how much time a program has used CPU resource. The timer interrupts the
 computer regularly.(A special kind of interrupt)
@@ -42,7 +52,7 @@ A process is a program in execution
 Memory management determines what is in memory when.
 
 ### OS Services
-Helpful to users: program execution | I/O operations | file systems | communication | error detection
+Helpful to users: program execution / I/O operations / file systems / communication / error detection
 
 Better efficiency/operation: resource allocation / accounting / protection and security
 
@@ -53,6 +63,7 @@ Better efficiency/operation: resource allocation / accounting / protection and s
 >GUI
 >
 >Batch
+
 
 # 2020.9.16~9.18
 
