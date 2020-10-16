@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operating System
-tags: Operating System
+tags: OperatingSystem
 stickie: false
 ---
 操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈遗迹可循；加上泉泉人反串作梗其中，期末岌岌可危矣。
