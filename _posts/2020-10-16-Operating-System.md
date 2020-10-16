@@ -24,21 +24,22 @@ CPU need to know how much time a program has used CPU resource. The timer interr
 computer regularly.(A special kind of interrupt)
 
 ### Main OS Services
->Process Management
+>> Process Management
 >
->Memory Management
+> Memory Management
 >
->Storage Management
+> Storage Management
 >
->I/O Management
+> I/O Management
 >
->Protection and Security
+> Protection and Security
 
-### Process Management
 A process is a program in execution.
 > Program: passive entity
 >
 > Process: active entity
+
+Memory management determines what is in memory when.
 
 
 # 2020.9.16~9.18
