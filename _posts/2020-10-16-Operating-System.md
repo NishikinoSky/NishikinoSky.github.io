@@ -32,5 +32,13 @@ Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer t
 CPU always has priority over DMA because CPU is faster and doing meaningful things.
 
 ### Memory Hierarchy
-> CPU > Cache > Memory > I/O device
+> Speed: CPU > Cache > Memory > I/O device
+
+Why caching works？
+> Temporal Locality: a program tends to reference address it has recently referenced.
+>
+> Spatial Locality: a program tends to reference address next to addresses it has recently referenced
+
+### Multi-core Chips
+
 
