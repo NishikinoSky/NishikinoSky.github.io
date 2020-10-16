@@ -8,12 +8,30 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.9.27 & 9.30
+# 2020.9.30 & 10.9
+
+## Processes
+
+
+
+
+# 2020.9.27
 
 ## OS Structures
 
+## #Why Applications are Operating System Specific
+Because each operating system provides its own unique system calls.
 
+Application Binary Interface (ABI): architecture equivalent of API, defines how different components of binary code can interface for a given operating system on a given architecture, CPU, etc.
 
+## #Operating System Design and Implementation
+Policy: What will be done? | Mechanism: How to do it?
+
+> Taking door as an example, policy is determining who can get in the door while mechanism is the way to enforce policy.
+
+An important principle: The separation of policy from mechanism
+
+## #Implementation
 
 
 # 2020.9.23 & 9.25
@@ -103,7 +121,6 @@ ELF includes ELF header, Program header table, .text, .rodata, .data, .bass, Sec
 ELF file mapping
 
 Kernel space | Stack -> | <- Heap | Bss segment | Data segment | Text segment (ELF)
-
 
 ### #User Operating System Interface
 >CLI
