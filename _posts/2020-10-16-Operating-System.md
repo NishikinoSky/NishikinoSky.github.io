@@ -15,6 +15,7 @@ stickie: false
 
 
 
+
 # 2020.9.23 & 9.25
 
 ## OS Structures
@@ -99,6 +100,7 @@ ELF includes ELF header, Program header table, .text, .rodata, .data, .bass, Sec
 >
 > .bss: uninitialized data
 
+ELF file mapping: Kernel space | Stack -> | <- Heap | Bss segment | Data segment | Text segment (ELF)
 
 
 ### #User Operating System Interface
