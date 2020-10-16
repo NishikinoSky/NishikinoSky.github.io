@@ -40,7 +40,7 @@ Applications->OS->Hardware
 
 OS is a resource abstractor and allocator. It decides who (which running program) gets what resource (share) and when.
 
-How to stat an OS?
+How to start an OS?
 > The boostrap program stored in ROM. 
 >
 > The bootstrap program initializes the computer.
