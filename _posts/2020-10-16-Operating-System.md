@@ -31,4 +31,5 @@ Direct Memory Access(DMA): CPU tells the DMA controller to initiate a transfer t
 
 CPU always has priority over DMA because CPU is faster and doing meaningful things.
 
-### 
+### RAM
+> CPU > Cache > Memory > I/O device
