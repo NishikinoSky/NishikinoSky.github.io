@@ -4,7 +4,7 @@ title: Operating System
 tags: OperatingSystem
 stickie: false
 ---
-操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈遗迹可循；况且泉泉人反串作梗其中，期末岌岌可危矣。
+操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈牙慧可拾、遗迹可循；何况泉泉人反串作梗其中，期末岌岌可危矣。
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
@@ -19,6 +19,26 @@ Two kinds of events: Interrupts and Traps
 ### System Calls
 A system call is a special kind of trap for a user program to do something privileged.
 
+### Timers
+CPU need to know how much time a program has used CPU resource. The timer interrupts the
+computer regularly.(A special kind of interrupt)
+
+### Main OS Services
+>Process Management
+>
+>Memory Management
+>
+>Storage Management
+>
+>I/O Management
+>
+>Protection and Security
+
+### Process Management
+A process is a program in execution.
+> Program: passive entity
+>
+> Process: active entity
 
 
 # 2020.9.16~9.18
