@@ -16,4 +16,9 @@ CPU-->Memory & I/O
 ### Memory
 Data sotred in memory and each byte is labeled by a unique address.
 
-### 
+### CPU
+> Program counter
+> current instruction
+> registers
+> ALU
+> Control Unit
