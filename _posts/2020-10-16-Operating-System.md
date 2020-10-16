@@ -11,7 +11,7 @@ stickie: false
 # 2020.9.16
 
  ## Von-Neumann Model
-> CPU-->Memory & I/O
+CPU-->Memory & I/O
 
  ## Memory
 
