@@ -8,9 +8,9 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# #2020.9.23~9.25
+# 2020.9.23~9.25
 
-## #OS Structures
+## OS Structures
 
 ### #OS Events
 Two kinds of events: Interrupts and Traps
@@ -67,9 +67,9 @@ Better efficiency/operation: resource allocation / accounting / protection and s
 >Batch
 
 
-# #2020.9.16~9.18
+# 2020.9.16~9.18
 
-## #Intro
+## Intro
 
 ### #Von-Neumann Model
 CPU-->Memory & I/O
