@@ -18,4 +18,4 @@ CPU-->Memory & I/O
 
 Data sotred in memory and each byte is labeled by a unique address.
 
-## 
+### 
