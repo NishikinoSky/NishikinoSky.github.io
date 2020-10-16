@@ -42,9 +42,13 @@ OS is a resource abstractor and allocator. It decides who (which running program
 
 How to stat an OS?
 > The boostrap program stored in ROM. 
+>
 > The bootstrap program initializes the computer.
+>
 > Then locates and loads the OS kernel into memory.
+>
 > The kernel starts the first process (called “init” on Linux, “launchd” on Mac OS X).
+>
 > Then nothing happens until an event occurs.
 
 ### Multi-Programming
