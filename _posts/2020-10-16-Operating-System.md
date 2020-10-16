@@ -4,11 +4,13 @@ title: Operating System
 tags: OperatingSystem
 stickie: false
 ---
-操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，毫无先辈牙慧可拾、遗迹可循；何况泉泉人反串作梗其中，期末岌岌可危矣。
+操作系统，乃保安必修之阴间课，大二胜大三，次次早八，周周lab，恰逢申先生教改，无先辈牙慧可拾、遗迹可循；何况泉泉人反串作梗其中，期末岌岌可危矣。
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
 # 2020.9.23~9.25
+
+## OS Structures
 
 ### OS Events
 Two kinds of events: Interrupts and Traps
@@ -23,7 +25,7 @@ Mostly accessed by programs via a high-level Application Programming Interface (
 
 Time spent in syscalls: realtime & user time(user mode) & system time(kernel mode)
 
-Typically, a number associated with each system call and System-call interface maintains a table indexed according to these numbers. Kernel just look up the table for the number, find the entry and excute it.
+Typically, a number associated with each system call and System-call interface maintains a table indexed according to these numbers. Kernel just looks up the table for the number, finds the entry and excutes it.
 
 Syscall will transfer the control flow from user to kernel.
 
@@ -66,6 +68,8 @@ Better efficiency/operation: resource allocation / accounting / protection and s
 
 
 # 2020.9.16~9.18
+
+## Intro
 
 ### Von-Neumann Model
 CPU-->Memory & I/O
