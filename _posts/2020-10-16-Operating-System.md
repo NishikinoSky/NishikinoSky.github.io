@@ -11,6 +11,8 @@ stickie: false
 ## 2020.9.16
 
 Von-Neumann Model
-> CPU--Memory & I/O
-
+> CPU-->Memory & I/O
 Memory
+
+Data sotred in memory and each byte is labeled by a unique address.
+
