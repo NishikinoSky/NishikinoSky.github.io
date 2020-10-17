@@ -50,7 +50,34 @@ fork() returns the child’s pid to the parent, and 0 to the child
 
 You can draw a picture to analyze the state of process when executing a program.
 
-exec() system call used after a fork()to replace the process’ memory space with a new program and parent process calls wait() for the child to terminate.
+exec() system call used after a fork() to replace the process’ memory space with a new program and parent process calls wait() for the child to terminate.
+
+### #Process Terminations
+
+A process terminates itself with the exit() system call and all resources of a process are deallocated by the OS.
+
+A process can cause the termination of another process using something called “signals” and the kill() system call.
+
+A parent can call wait() syscall to wait for a child to complete. It blocks until any child completes and returns the pid of the completed child and the child’s exit code.
+
+### #Signal
+
+### #Process Scheduling
+Process scheduler selects among available processes for next execution on CPU core.
+
+Schedulling queues
+
+>Ready queue –set of all processes residing in main memory, ready and waiting to execute
+>
+>Wait queue –set of processes waiting for an event (i.e. I/O)
+
+### #Context Switch
+A context switch occurs when the CPU switches from one process to another.
+
+Use PCB to save and load states of different processes.
+
+### #Zombie
+They’re dead, but alive.
 
 
 
