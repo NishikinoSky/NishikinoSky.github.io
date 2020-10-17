@@ -8,6 +8,38 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
+# 2020.10.14 & 10.16
+
+## IPCs
+
+### #Inter-process Communication (IPC)
+Processes within a host may be independent or cooperating. They cooperate for information sharing or computation speedup.
+
+### #Models of IPC
+Signal | Shared memory | Message passing | Pipe | Socket | IPC
+
+### #Shared Memory
+One process creates a shared memory segment, and processes can then “attach” it to their address spaces. (Though this is really contrary to the memory protection idea central to multi-programming.)
+
+Each block of shared memory has an id. 
+
+Processes communicate by reading or writing to the shared memory region.
+
+Generally, we only create shared memory when great amount of information needs to be shared. We'd rather use message passing when the amount is not so large.
+
+### #Message Passing
+Processes do not share any address space for communicating, so the memory isolation abstraction is maintained.
+
+Two fundamental operations: send & recv
+
+>send: to send a message (i.e., some bytes)
+>
+>recv: to receive a message (i.e., some bytes)
+
+
+
+
+
 # 2020.9.30 & 10.9
 
 ## Processes
@@ -83,7 +115,14 @@ Use PCB to save and load states of different processes.
 ### #Zombie
 They’re dead, but alive.
 
+Zombie happens when a child process terminates until it is “reaped” (garbage collected) by the OS.
 
+Zombies don't consume CPU and only consume a slot in memory.
+
+### #Orphans
+An orphan process is one whose parent has died.
+
+In this case, the orphan is “adopted” by the process with pid 1.
 
 # 2020.9.27
 
