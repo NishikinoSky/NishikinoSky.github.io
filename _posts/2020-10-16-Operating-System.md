@@ -12,7 +12,42 @@ stickie: false
 
 ## Processes
 
-## #
+## #Process Concept
+A process is a program in execution.
+
+Program is a passive entity and it becomes a process when it's loaded into memory.
+
+Process = code(text) + program counter(points to the next instruction to execut) + registers + runtime stack + data section + heap
+
+stack-> | <-heap | data | text
+
+## #The Runtime Stack
+The runtime stack is a stack on which items can be pushed or popped.
+
+Activation Record: Before calling a function, we need to save some information like the return address, parameters, local variables, the value returned by function, the state of registers. All the above goes on the stack as part of activation records, which grows downward.
+
+## #Process State
+New:  The process is being created
+Running:  Instructions are being executed
+Waiting:  The process is waiting for some event to occur
+Ready:  The process is waiting to be assigned to a processor
+Terminated:  The process has finished execution
+
+## #Process Control Block (PCB)
+It stores information associated with each process.
+
+## #New: Process Creation
+A process may create new processes, in which case it becomes a parent, then we obtain a tree of processes and each process has a pid(ppid refers to the parents' pid).
+
+The child may inherit/share some of the resources of its parent, or may have entirely new ones and a parent can also pass input to a child
+
+## #fork() Syscall
+fork() creates a new process which is a copy of its parent but they have different pids and its resource utilization is set to 0. And both processes continue execution after the call to fork().
+
+fork() returns the child’s pid to the parent, and 0 to the child
+
+>Each process can find its own pidwith the getpid() call, and its ppidwith the getppid() call
+
 
 
 # 2020.9.27
