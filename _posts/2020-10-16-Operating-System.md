@@ -28,9 +28,13 @@ Activation Record: Before calling a function, we need to save some information l
 
 ### #Process State
 New:  The process is being created
+
 Running:  Instructions are being executed
+
 Waiting:  The process is waiting for some event to occur
+
 Ready:  The process is waiting to be assigned to a processor
+
 Terminated:  The process has finished execution
 
 ### #Process Control Block (PCB)
