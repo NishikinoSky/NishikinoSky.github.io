@@ -40,7 +40,7 @@ Terminated:  The process has finished execution
 ### #Process Control Block (PCB)
 It stores information associated with each process.
 
-### #New: Process Creation
+### #Process Creation
 A process may create new processes, in which case it becomes a parent, then we obtain a tree of processes and each process has a pid(ppid refers to the parents' pid).
 
 The child may inherit/share some of the resources of its parent, or may have entirely new ones and a parent can also pass input to a child
