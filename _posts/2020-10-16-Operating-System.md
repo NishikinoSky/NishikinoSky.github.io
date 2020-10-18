@@ -134,6 +134,7 @@ Because each operating system provides its own unique system calls.
 Application Binary Interface (ABI): architecture equivalent of API, defines how different components of binary code can interface for a given operating system on a given architecture, CPU, etc.
 
 ## #Operating System Design and Implementation
+
 Policy: What will be done? | Mechanism: How to do it?
 
 > Taking door as an example, policy is determining who can get in the door while mechanism is the way to enforce policy.
@@ -189,9 +190,13 @@ A process is a program in execution
 Memory management determines what is in memory when.
 
 ### #OS Services
-Helpful to users: program execution / I/O operations / file systems / communication / error detection
+Helpful to users
 
-Better efficiency/operation: resource allocation / accounting / protection and security
+program execution | I/O operations | file systems | communication | error detection
+
+Better efficiency/operation
+
+resource allocation | accounting | protection and security
 
 ### #System Services
 
