@@ -84,6 +84,6 @@ Ah!
 
 光を追いかけてきたんだよ
 
-<span style="color:#78909C;font-size:20px">{{み}}</span></blockquote></h2>
+<span style="color:#78909C>み</span></blockquote></h2>
 
 [**μ'sic forever**](https://lovelive.ws)
