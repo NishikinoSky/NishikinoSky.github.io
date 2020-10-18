@@ -251,7 +251,8 @@ CPU-->Memory & I/O
 Data stored in memory and each byte is labeled by a unique address.
 
 ### #CPU
-Program Counter  |  Current Instruction  |  Registers  |  ALU  |  Control Unit
+
+Program Counter | Current Instruction | Registers | ALU | Control Unit
 
 Fetch-Decode-Execute cycle
 
