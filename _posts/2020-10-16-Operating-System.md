@@ -18,11 +18,6 @@ A thread is a basic unit of execution within a process.
 
 Each thread has its own thread ID, program counter, register set, stack and shares code, data, heap, open files and signals with threads within the same process.
 
-
-
-
-
-
 # 2020.10.14 & 10.16
 
 ## IPC
