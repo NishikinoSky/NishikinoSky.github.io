@@ -84,4 +84,4 @@ Ah!
 
 光を追いかけてきたんだよ
 
-[μ'sic forever](https://lovelive.ws)
+[**μ'sic forever**](https://lovelive.ws)
