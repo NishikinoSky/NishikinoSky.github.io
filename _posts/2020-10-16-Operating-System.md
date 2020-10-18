@@ -8,14 +8,21 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.10.14 & 10.16
+# 2020.10.16
 
-## IPCs
+## Thread
+
+
+
+# 2020.10.14
+
+## IPC
 
 ### #Inter-process Communication (IPC)
 Processes within a host may be independent or cooperating. They cooperate for information sharing or computation speedup.
 
 ### #Models of IPC
+
 Signal | Shared memory | Message passing | Pipe | Socket | IPC
 
 ### #Shared Memory
@@ -36,8 +43,36 @@ Two fundamental operations: send & recv
 >
 >recv: to receive a message (i.e., some bytes)
 
+#Direct Communication
 
+send(P, message) –send a message to process P
 
+receive(Q, message) –receive a message from process Q
+
+#Indirect Communication
+
+Messages are directed and received from mailboxes(port) and each box has a unique box. Processes can communicate only if they share a mailbox.
+
+#Synchronization & Asynchronous
+
+Message passing may be either blocking or non-blocking. Blockingis considered synchronous while non-blockingis considered asynchronous.
+
+> Blocking: The sender or receiver is blocked until a message is received or available. (More effective in communicating)
+>
+> Non-blocking: No blocking. (More efficient)
+
+#Buffering
+Queue of messages attached to the link.
+
+### #Pipes
+Ordinary pipes: Typically, a parent process creates a pipe and uses it to communicate with a child process that it created.
+
+>fd[0] is the read end; fd[1] is the write end
+
+Named pipes: It can be accessed by processes without a parent-child relationship.
+
+### #Client-Server Communication
+Sockets
 
 
 # 2020.9.30 & 10.9
@@ -128,12 +163,12 @@ In this case, the orphan is “adopted” by the process with pid 1.
 
 ## OS Structures
 
-## #Why Applications are Operating System Specific
+### #Why Applications are Operating System Specific
 Because each operating system provides its own unique system calls.
 
 Application Binary Interface (ABI): architecture equivalent of API, defines how different components of binary code can interface for a given operating system on a given architecture, CPU, etc.
 
-## #Operating System Design and Implementation
+### #Operating System Design and Implementation
 
 Policy: What will be done? | Mechanism: How to do it?
 
@@ -141,7 +176,7 @@ Policy: What will be done? | Mechanism: How to do it?
 
 An important principle: The separation of policy from mechanism
 
-## #Implementation
+### #Implementation
 
 
 # 2020.9.23 & 9.25
