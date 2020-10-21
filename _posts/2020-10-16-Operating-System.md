@@ -29,7 +29,7 @@ Mapping mechanism
 
 > Many-to-One Model
 >
-> One-to-One Model
+> One-to-One Model ： Win Linux
 >
 > Many-to-Many Model
 >
@@ -47,11 +47,6 @@ Deferred cancellation is more safe.
 
 ### #Leading Thread
 The thread first created by a process, whose threadid is the same with pid of the process.
-
-
-
-
-
 
 
 # 2020.10.14 & 10.16
