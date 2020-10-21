@@ -17,7 +17,9 @@ A thread is a basic unit of execution within a process.
 
 Each thread has its own thread ID, program counter, register set, stack (all of these called TCD: thread-control block) and shares code section, data section, heap, open files and signals with threads within the same process.
 
-You can check by > ps -eLF
+You can check by 
+
+> ps -eLF
 
 ### #Challenge
 Date race
@@ -32,6 +34,21 @@ Mapping mechanism
 > Many-to-Many Model
 >
 > Two-Level Model
+
+### #fork() & exec()
+Fork the thread which calls fork()
+
+### #Thread Cancellation
+Asynchronous cancellation: One thread terminates another immediately.
+
+Deferred cancellation: A thread periodically checks whether it should terminate, where called cancellation point.
+
+Deferred cancellation is more safe.
+
+### #Leading Thread
+The thread first created by a process, whose threadid is the same with pid of the process.
+
+
 
 
 
