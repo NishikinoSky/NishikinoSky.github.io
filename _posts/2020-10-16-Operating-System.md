@@ -8,15 +8,34 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
-# 2020.10.16
+# 2020.10.16 & 10.21
 
 ## Thread
 
 ### #Thread Concept
-
 A thread is a basic unit of execution within a process.
 
-Each thread has its own thread ID, program counter, register set, stack and shares code, data, heap, open files and signals with threads within the same process.
+Each thread has its own thread ID, program counter, register set, stack (all of these called TCD: thread-control block) and shares code section, data section, heap, open files and signals with threads within the same process.
+
+You can check by > ps -eLF
+
+### #Challenge
+Date race
+
+### #User Thread & Kernel Thread
+Mapping mechanism
+
+> Many-to-One Model
+>
+> One-to-One Model
+>
+> Many-to-Many Model
+>
+> Two-Level Model
+
+
+
+
 
 # 2020.10.14 & 10.16
 
