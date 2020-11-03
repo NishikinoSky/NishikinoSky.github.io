@@ -8,6 +8,29 @@ stickie: false
 
 故👴痛作此文，一来查补疑难疏漏，二来明志自勉，以免挂科之危。
 
+# 2020.10.28 & 10.30
+
+## CPU Scheduling
+
+### #CPU Scheduling
+Definition: The decisions made by the OS to figure out which ready processes/threads should run and for how long.
+
+The policyis the scheduling strategy
+
+The mechanism is the dispatcher
+
+### #CPU-I/O Burst Cycle
+I/O-bound process & CPU-bound process
+
+### #The CPU Scheduler
+Non-preemptive scheduling: a process holds the CPU until it is willing to give it up
+
+Preemptive scheduling: a process can be preempted even though it could have happily continued executing
+
+Modern OS prefer preemptive scheduling though it is more complex.
+
+
+
 # 2020.10.16 & 10.21
 
 ## Thread
