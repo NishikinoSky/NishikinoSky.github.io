@@ -12,7 +12,7 @@ stickie: false
 
 ##                                        
 
-# 2020.10.28 & 10.30-
+# 2020.10.28 & 10.30
 
 
 ## CPU Scheduling
