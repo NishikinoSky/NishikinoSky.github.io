@@ -39,14 +39,27 @@ List
 
     {
 
-    element
+        element;
     
-    pointer to first child
+        pointer to first child;
     
-    pointer to next sibling
+        pointer to next sibling;
     
     }
 
+## Binary Tree
+
+    void  preorder ( tree_ptr  tree ){ 
+    
+        if  ( tree )  {
+        
+        visit ( tree );
+        
+        for (each child C of tree ) preorder ( C );
+        
+            }
+            
+    }
 
 
 
