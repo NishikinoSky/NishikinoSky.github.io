@@ -31,3 +31,18 @@ height of ni: length of the longest path from ni to a leaf
 
 ancestors of a node: all the nodes along the path from the node up to the root
 
+descendants of a node: all the nodes in its subtrees
+
+## Implementation
+
+List
+
+{
+    element
+    pointer to first child
+    pointer to next sibling
+    }
+
+
+
+
