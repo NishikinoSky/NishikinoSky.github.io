@@ -49,6 +49,8 @@ List
 
 ## Binary Tree
 
+### Traversal
+
     void  preorder ( tree_ptr  tree ){ 
     
         if  ( tree )  {
@@ -61,5 +63,28 @@ List
             
     }
 
+    void  postorder ( tree_ptr  tree ){ 
+    
+        if  ( tree )   {
+        
+        for (each child C of tree ) postorder ( C );
+        
+        visit ( tree );
+        
+        }
+        
+    }
 
-
+    void  levelorder ( tree_ptr  tree ){   
+    
+        enqueue ( tree );
+        
+        while (queue is not empty) {
+        
+            visit ( T = dequeue ( ) );
+            
+            for (each child C of T )enqueue ( C );
+            
+        }
+        
+    }
