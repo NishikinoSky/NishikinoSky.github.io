@@ -94,7 +94,9 @@ List
     
     void  inorder ( tree_ptr  tree ){  
     
-        if  ( tree )   {inorder ( tree->Left );
+        if  ( tree )   {
+        
+        inorder ( tree->Left );
         
         visit ( tree->Element );
         
@@ -103,3 +105,6 @@ List
         }
         
     }    
+
+
+### 
