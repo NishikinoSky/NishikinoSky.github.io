@@ -11,11 +11,15 @@ stickie: false
 
 一个前驱，多个后继
 
+## Degree
+
 degree of a node: the number of subtrees of the node
 
 degree of a tree: max{degree(node)}
 
 parent | children | siblings | leaf(terminal node)
+
+## Path
 
 path from n1 to nk
 
