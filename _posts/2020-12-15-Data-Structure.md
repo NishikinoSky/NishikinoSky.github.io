@@ -38,9 +38,13 @@ descendants of a node: all the nodes in its subtrees
 List
 
 {
+
     element
+    
     pointer to first child
+    
     pointer to next sibling
+    
     }
 
 
