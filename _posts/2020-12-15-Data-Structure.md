@@ -64,6 +64,7 @@ List
     }
 
 
+
     void  postorder ( tree_ptr  tree ){ 
     
         if  ( tree )   {
@@ -75,6 +76,7 @@ List
         }
         
     }
+
 
 
     void  levelorder ( tree_ptr  tree ){   
