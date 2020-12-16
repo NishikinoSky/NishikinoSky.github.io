@@ -186,4 +186,49 @@ Insert
         
     }
     
+Delete
+
+    SearchTree  Delete( ElementType X, SearchTree T ) {    
+    
+        Position  TmpCell; 
+        
+        if ( T == NULL )   Error( "Element not found" ); 
+        
+        else  if ( X < T->Element )  /* Go left */
+        
+            T->Left = Delete( X, T->Left );
+            
+        else  if ( X > T->Element )  /* Go right */
+        
+            T->Right = Delete( X, T->Right ); 
+            
+        else/* Found element to be deleted */
+        
+            if ( T->Left && T->Right ) {  /* Two children */
+            
+                    /* Replace with smallest in right subtree */
+                    
+                TmpCell = FindMin( T->Right );
+                
+                T->Element = TmpCell->Element;
+                
+                T->Right = Delete( T->Element, T->Right );  } /* End if */
+                
+            else {  /* One or zero child */
+            
+                    TmpCell = T; 
+                    
+                    if ( T->Left == NULL ) /* Also handles 0 child */
+                    
+                            T = T->Right; 
+                            
+                    else  if ( T->Right == NULL )  T = T->Left;
+                    
+                    free( TmpCell );  }  /* End else 1 or 0 child */
+                    
+        return  T;
+        
+    }
+    
+    T( N ) = O ( h )  where h is the height of the tree
 
