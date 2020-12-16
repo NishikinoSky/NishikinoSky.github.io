@@ -107,4 +107,83 @@ List
     }    
 
 
-### 
+### Binary Search Tree
+
+    Position  Find( ElementType X,  SearchTree T ) { 
+    
+        if ( T == NULL ) return  NULL;  /* not found in an empty tree */
+        
+        if ( X < T->Element )  /* if smaller than root */
+        
+            return  Find( X, T->Left );  /* search left subtree */
+            
+        else if ( X > T->Element )  /* if larger than root */
+        
+            return  Find( X, T->Right );  /* search right subtree */
+            
+        else   /* if X == root */
+        
+            return  T;  /* found */
+    }
+    
+    T( N ) = S ( N ) =O( d )  where d is the depth of X
+
+
+     Position  FindMin( SearchTree T ) { 
+     
+        if ( T == NULL )   return  NULL; /* not found in an empty tree */
+        
+        else if ( T->Left == NULL )   return  T;  /* found left most */
+        
+        else   return  FindMin( T->Left );   /* keep moving to left */
+        
+    }
+    
+    
+        Position  FindMax( SearchTree T ) { 
+        
+            if ( T != NULL ) 
+            
+                while ( T->Right != NULL ) 
+                
+                    T = T->Right;   /* keep moving to find right most */
+                    
+            return T;  /* return NULL or the right most */
+            
+    }
+
+Insert
+
+    SearchTree  Insert( ElementType X, SearchTree T ) { 
+    
+        if ( T == NULL ) { /* Create and return a one-node tree */
+        
+            T = malloc( sizeof( struct TreeNode ) ); 
+            
+            if ( T == NULL ) FatalError( "Out of space!!!" ); 
+            
+            else { T->Element = X; T->Left = T->Right = NULL; }
+            
+                }  /* End creating a one-node tree */
+                
+        else/* If there is a tree */
+        
+            if ( X < T->Element ) 
+            
+                T->Left = Insert( X, T->Left ); 
+                
+        else
+        
+            if ( X > T->Element ) 
+            
+                T->Right = Insert( X, T->Right ); 
+                
+                /* Else X is in the tree already; we'll do nothing */
+                
+        return  T;   
+        
+        /* Do not forget this line!! */
+        
+    }
+    
+
