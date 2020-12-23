@@ -2,7 +2,7 @@
 layout: post
 title: My first blog
 tags: Others
-stickie: true
+stickie: false
 ---
 
 这个月生起重搭（白嫖）博客的想法，主要因为两件事
