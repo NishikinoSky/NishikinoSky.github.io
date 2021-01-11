@@ -1,6 +1,6 @@
 - name: Riko
   image: img/riko.jpg
-  url: http://www.zjuriko.ml/
+  url: https://rikoli.github.io/
   describe: Riko's Blog
 
 # - name: Links Name
