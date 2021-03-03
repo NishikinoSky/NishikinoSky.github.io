@@ -25,3 +25,4 @@ stickie: false
 
 ## 定义数据
 
+[name] /directive initializer/ [,initializer]
