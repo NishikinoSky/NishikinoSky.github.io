@@ -27,3 +27,39 @@ stickie: false
 
 [name] directive initializer [,initializer]
 
+    value1 BYTE 255
+
+    value2 SBYTE -128 ; BYTE定义字节，SBYTE定义有符号字节，且初始值必须为8位
+
+    value3 DB 255
+
+    value4 DB -128 ;DB 也可定义有符号或者无符号的8位变量
+
+    value BYTE ? ; ?初始值使得变量未初始化 
+
+### 多初始值
+
+    list BYTE 10,20,30
+
+         BYTE 40,50,60
+     
+         BYTE 70,80,90
+         
+假设list偏移量为0000，则10的偏移量为0000，20为0001……
+
+### 定义字符串
+
+用单/双引号，结尾用空字节0标记
+
+    string BYTE 'Hello',0 ; 每个字符占一个字节，等价于string BYTE 'H','e','l','l','o'
+
+十六进制代码 0dh,0ah 为回车换行符
+
+    string BYTE 'Hello,',odh,oah
+    
+           BYTE 'my friend.',odh,oah,0
+           
+行连续符 \ 把两行代码连成一条语句，必须是一行的最后一个字符
+
+### DUP 操作符
+
