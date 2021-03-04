@@ -27,6 +27,8 @@ stickie: false
 
 [name] directive initializer [,initializer]
 
+### BYTE SBYTE 数据
+
     value1 BYTE 255
 
     value2 SBYTE -128 ; BYTE定义字节，SBYTE定义有符号字节，且初始值必须为8位
@@ -62,4 +64,28 @@ stickie: false
 行连续符 \ 把两行代码连成一条语句，必须是一行的最后一个字符
 
 ### DUP 操作符
+
+        BYTE 20 DUP(0) ; 20个值为0的字节
+        
+        BYTE 20 DUP(?) ; 20个未初始化的字节
+        
+### WORD SWORD 数据
+
+word1 WORD 65535
+
+word2 SWORD -32768 ; 为16位整数分配空间
+
+同样可以用 DW 定义有符号或无符号
+
+多初始值时偏移量为2
+
+### DWORD SDWORD 数据
+
+为32位整数分配空间
+
+同样可用 DD 定义有符号或者无符号
+
+偏移量为4
+
+QWORD  SQWORD 为4字，也可用DQ
 
