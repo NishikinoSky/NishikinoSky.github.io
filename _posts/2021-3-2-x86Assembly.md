@@ -89,3 +89,27 @@ word2 SWORD -32768 ; 为16位整数分配空间
 
 QWORD  SQWORD 为4字，也可用DQ
 
+### 浮点类型
+
+REAL4 4字节单精度
+
+REAL8 8字节双精度
+
+REAL10 10字节扩展精度
+
+    rval1 REAL4 -1.2 ; rval1 DD -1.2
+    
+    rval2 REAL8 3.2E-260 ; rval2 DQ 3.2E-260
+    
+    rval3 REAL10 4.6E+4096 ; rval3 DT 4.6E+4096
+    
+DD 短实数
+
+DQ 长实数
+
+DT 扩展精度实数
+
+### 小端顺序
+
+x86处理器按照小端顺序从低到高存放数据
+
