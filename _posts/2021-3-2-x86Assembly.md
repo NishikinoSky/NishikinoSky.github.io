@@ -149,3 +149,11 @@ ListSize = ($ - list) ; 计算list数组大小，该语句必须跟在list后面
 
 创建文本宏（text macro）
 
+    name TEXTEQU <text> ; 创建文本宏
+    
+    name TEXTEQU textmacro ; 已定义文本宏传递
+    
+    name TEXTEQU %constExpr
+    
+# Chapter 4 数据传送、寻址和算术运算
+
