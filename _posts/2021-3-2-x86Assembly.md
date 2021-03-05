@@ -137,3 +137,15 @@ ListSize = ($ - list) ; 计算list数组大小，该语句必须跟在list后面
 
 ### EQU 伪指令
 
+把一个符号名称与一个整数表达式或任意文本连接
+
+    name EQU expression
+
+    name EQU symbol ; symbol必须是以及定义的符号名称
+
+    name EQU <test> ; 用<>中的文本或整数值来代替name，文本为直接复制
+
+### TESTEQU 伪指令
+
+创建文本宏（text macro）
+
