@@ -113,3 +113,27 @@ DT 扩展精度实数
 
 x86处理器按照小端顺序从低到高存放数据
 
+### 声明未初始化数据
+
+.data ? ; 若此处未加 ? 则编译后程序会多出2000个字节
+
+bigArray DWORD 5000 DUP(?) 
+
+## 符号常量
+
+symbolic constant 不使用内存，运行时不改变值
+
+### 等号伪指令
+
+name = expression
+
+通常expression为一个32位整数，代替name
+
+### 当前地址计数器 $
+
+list BYTE 10,20,30,40
+
+ListSize = ($ - list) ; 计算list数组大小，该语句必须跟在list后面；若数组为多字节类型，则要除单个元大小
+
+### EQU 伪指令
+
