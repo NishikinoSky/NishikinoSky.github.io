@@ -15,3 +15,14 @@ stickie: false
 
 # Part 1 Relational DB
 
+关系理论第一范式:每个属性不可再分
+
+## Keys 码
+
+超码superkey: 唯一标识一个元组
+
+候选码candidate key: 任意真子集都不是超码集合的超码集合
+
+主码primary key
+
+外码foreign key
