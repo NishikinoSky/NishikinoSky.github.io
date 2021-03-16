@@ -5,6 +5,33 @@ tags: Database
 stickie: false
 ---
 
+参考书籍：《数据库系统概念》6th
+
+# SQL
+
+## Data-Definition Language (DDL)
+
+Domain Types: char(n) varchar(n) int smallint numeric(p,d) float(n) Null
+
+create table r(A1 D1, A2 D2……);
+
+drop table r; // delete the table and its contents;
+
+delete from r; // delete contents but retains table;
+
+alter table r add A D;
+
+alter table r drop A;
+
+create index <i-name> on <table-name> (<attribute-list>);
+  
+create unique index <i-name> on <table-name> (<attribute-list>);
+  
+drop index <i-name>;
+  
+
+
+
 # Part 0 Intro
 
 文件处理系统的局限
