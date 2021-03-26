@@ -29,8 +29,13 @@ create unique index <i-name> on <table-name> (<attribute-list>);
   
 drop index <i-name>;
   
+## Intermediate SQL
+  
+### 连接条件
 
+join...using
 
+join...on
 
 # Part 0 Intro
 
